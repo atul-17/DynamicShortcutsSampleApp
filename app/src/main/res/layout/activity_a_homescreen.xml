@@ -9,10 +9,49 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:text="Welcome to the first screen"
+        android:text="First screen"
         android:gravity="center"
         android:textColor="@color/black"
         android:textSize="25sp"
+        android:id="@+id/tvWelcomeuser"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvWelcomeuser"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        app:layout_goneMarginTop="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintWidth_percent=".6"
+        android:layout_marginEnd="12dp"
+        android:text="Set Shortcut"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:id="@+id/btnSetShortcut"
+        android:background="@color/material_dynamic_secondary10"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/btnSetShortcut"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        app:layout_goneMarginTop="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintWidth_percent=".6"
+        android:layout_marginEnd="12dp"
+        android:text="create shortcuts"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:id="@+id/button2"
+        android:background="@color/material_dynamic_secondary10"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
